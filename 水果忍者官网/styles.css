@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('beijin.jpg'); /* 替换为您的图片路径 */
+    background-size: cover; /* 覆盖整个屏幕 */
+    background-position: center; /* 居中显示 */
+    height: 100vh; /* 视口高度 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+#myButton {
+    padding: 20px 30px;
+    background-color: #a98b1c; /* 绿色背景 */
+    color: rgb(255, 255, 255); /* 白色文字 */
+    border: none;
+    cursor: pointer;
+    font-size: 28px; /* 文字大小 */
+}
